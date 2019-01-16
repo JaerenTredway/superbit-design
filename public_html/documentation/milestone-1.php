@@ -33,65 +33,45 @@
 				</tr>
 				<tr>
 					<td>Name</td>
-					<td>Lisa Bullard</td>
+					<td> Lisa Bullard</td>
 				</tr>
 				<tr>
 					<td>Age</td>
-					<td>42</td>
+					<td> 42</td>
 				</tr>
 				<tr>
 					<td>Profession</td>
-					<td></td>
+					<td> Life Coach and Couples Therapist, Masters Degree in Psychology</td>
 				</tr>
 				<tr>
 					<td>Tech</td>
-					<td></td>
+					<td> Macbook Air 2015, iPhone 6, iPad Mini 4</td>
+				</tr>
+				<tr>
+					<td>Situation leading user to my website</td>
+					<td> The user is looking for a high-end, top-rated Web Developer to build an extraordinary website for them. Costs and basic functionality are not their main concern, they are looking for the best website building service that money can buy.</td>
 				</tr>
 				<tr>
 					<td>Attitudes and behaviors</td>
-					<td></td>
+					<td> Lisa is a mature, sophisticated professional who has a refined artistic and design sensibility and expects her website to reflect that in addition to its content and functionality.</td>
 				</tr>
 				<tr>
-					<td>Frustrations and Needs</td>
-					<td></td>
+					<td>Frustrations</td>
+					<td>Lisa has very specific tastes and has invested a lot in her professional reputation, so she is very picky about the specific details of her website. It basically has to be perfect or she doesn't want it. She is frustrated when her demanding requirements are poorly recieved.</td>
+				</tr>
+				<tr>
+					<td>Needs</td>
+					<td> Lisa's clients are busy professionals who will respond positively to her website if it is easy to navigate, concise and professional. They will also respond well to it being sleek, modern, minimalist, and aesthetically pleasing, with a sophisticated, polished user interface.</td>
 				</tr>
 				<tr>
 					<td>Goals</td>
-					<td></td>
+					<td> Lisa wants to increase her base of clients and build a strong internet presence. In addition, she will sell her classes and seminars through her site, keep a database of customers, have a scheduling system for the yoga and meditation classes she teaches, and make her blog more accessible.</td>
 				</tr>
 				<tr>
 					<td>User Story</td>
-					<td></td>
+					<td> "My name is Lisa Bullard, MS, and I am a professional coach looking to dramatically improve my internet presence and my use of web technologies to enhance my business. I need a Web Developer who has the technical know-how but also has a solid artistic ability and an ability to really understand the very specific details I want in my website.</td>
 				</tr>
 			</table>
-
-			<!--Your persona should feature the following at minimum:
-		Name
-		A detailed description that includes demographic information such as: age, job or role, relevant technology being used, behaviors and attitudes, and the situation or scenario in which they will use your site.
-		Goal(s) regarding the use of your site.
-		Additional information regarding your persona may also include:
-
-		Frustrations your persona may be facing.
-		Additional information your persona may need in order to achieve their goal.
-
-		 	Pictures are particularly useful as they help people to visualise the persona, to make it seem real. They also help designers/developers empathise with the personas more easily.
-			A description gives a brief summary of the persona, which often contains demographic information (sometimes going into surprisingly large amounts of detail). The description might include (among other information) their job, their technology, any pressures they're under and the situation they're in when they use the system/site.
-			Needs, goals & features can either be a straight list for each persona, or a table comparing each persona against each possible need/feature/goal. This can help define a priority list for features (or the needs from which to develop features) before development starts.
-
-			A 'quote' from the persona
-This should summarise their needs/goals into a single sentence. This can be a double edged sword, as this single sentence runs the risk of oversimplifying the personas issues. Quotes do have the added advantage of giving the personas further personality.
-Frustrations
-These are issues that the persona encounters, either with the existing system or because there's no existing system. These can clarify to designers/developers exactly what the biggest issues this persona faces.
-Ideal features
-This is very similar to features, but with no restrictions placed on their feasibility... these may be impossible to produce, but sometimes help designers/developers think of alternative approaches that are more realistic.
-'Need to know'
-Any information the persona needs when trying to do their goal. These help designers/developers understand the key information needed to communicate to users.
-Behaviours
-These are the typical behaviours the persona exhibits. They're usually only shown if the personas different behaviours lead to different needs/requirements of the system in development.
-Scenarios
-These are sample use cases the persona may do. They can be based on either their goals or their use of an existing system. This can clarify exactly how a system will be/is used.
-
-			-->
 		</section>
   	</body>
 </html>

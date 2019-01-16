@@ -5,3 +5,8 @@ body {
 h1 {
 	font-size: 2rem;
 }
+
+table, th, td {
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
