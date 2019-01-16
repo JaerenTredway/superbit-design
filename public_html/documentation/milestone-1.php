@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>SuperBit Design</title>
-  </head>
+  	<head>
+    	<meta charset="utf-8">
+    	<title>SuperBit Design</title>
+  	</head>
   
-  <body>
-    <section class="overview">
-      <h1>Purpose</h1>
-      <p>This website will provide customers who are looking for a web development company with a clear and concise understanding of what services and deliverable products SuperBit Design provides.</p>
-      
-      <h1>Audience</h1>
-      <p>The people accessing this site will be prospective clients who want information that will allow them to make a decision about pursuing business dealings with SuperBit Design. Customers will be small business owners who want a new website or who need an existing site repaired or improved upon with such things as online sales functionality, client databases, sheduling systems and so on. </p>
-      
-      <h1>Goal</h1>
-      <p>The end goal of this website is to impress the viewer with the cutting-edge, modern look and feel of the site, outstanding credentials and references, a portfolio with exceptional examples of work done by Will, and overall a smooth and seamless user experience. Ultimately the viewer will pursue a business relationship with SuperBit Design and purchase services.</p>
-    </section>
+  	<body>
+    	<section class="overview">
+			<h1>Overview of SuperBit Design website</h1>
+			<p>PWP project for Will Tredway, Fullstack Cohort 23</p>
+		 	<h2>Purpose</h2>
+		 	<p>This website will provide customers who are looking for a web development company with a clear and concise understanding of what services and deliverable products SuperBit Design provides, and Will Tredway's credentials, reputation, and abilities.</p>
+
+			<h2>Audience</h2>
+			<p>The people accessing this site will be prospective clients who want information that will allow them to make a decision about pursuing business dealings with SuperBit Design. Customers will be small business owners who want a new website or who need an existing site repaired or improved upon with such things as online sales functionality, client databases, sheduling systems and so on. </p>
+
+			<h2>Goal</h2>
+			<p>The end goal of this website is to impress the viewer with the cutting-edge, modern look and feel of the site, outstanding credentials and references, a portfolio with exceptional examples of work done by Will, and overall a smooth and seamless user experience. Ultimately the viewer will pursue a business relationship with SuperBit Design and purchase services.</p>
+	 	</section>
     
-    <section class="persona">
+    	<section class="persona">
 
 
 
@@ -30,8 +32,8 @@
 
 		 Frustrations your persona may be facing.
 		 Additional information your persona may need in order to achieve their goal. -->
-    </section>
-  </body>
+    	</section>
+  	</body>
 </html>
 
 
