@@ -4,6 +4,7 @@
     	<meta charset="utf-8">
     	<title>SuperBit Design</title>
 		<link href="./documentation-styles.css" rel="stylesheet" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet"/>
   	</head>
   
   	<body>
@@ -23,9 +24,45 @@
     
     	<section class="persona">
 			<h1>Persona</h1>
+			<p>This is a fictional character that represents a typical customer who will visit the SuperBit Design site.</p>
 
 			<table>
-				<thead></thead>
+				<tr>
+					<th>Attribute</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td>Lisa Bullard</td>
+				</tr>
+				<tr>
+					<td>Age</td>
+					<td>42</td>
+				</tr>
+				<tr>
+					<td>Profession</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Tech</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Attitudes and behaviors</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Frustrations and Needs</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Goals</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>User Story</td>
+					<td></td>
+				</tr>
 			</table>
 
 			<!--Your persona should feature the following at minimum:
