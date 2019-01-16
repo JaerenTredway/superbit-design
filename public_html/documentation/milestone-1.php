@@ -3,11 +3,13 @@
   	<head>
     	<meta charset="utf-8">
     	<title>SuperBit Design</title>
+		<link href="./documentation-styles.css" rel="stylesheet" type="text/css"/>
   	</head>
   
   	<body>
     	<section class="overview">
 			<h1>Overview of SuperBit Design website</h1>
+
 			<p>PWP project for Will Tredway, Fullstack Cohort 23</p>
 		 	<h2>Purpose</h2>
 		 	<p>This website will provide customers who are looking for a web development company with a clear and concise understanding of what services and deliverable products SuperBit Design provides, and Will Tredway's credentials, reputation, and abilities.</p>
@@ -20,8 +22,11 @@
 	 	</section>
     
     	<section class="persona">
+			<h1>Persona</h1>
 
-
+			<table>
+				<thead></thead>
+			</table>
 
 			<!--Your persona should feature the following at minimum:
 		Name
