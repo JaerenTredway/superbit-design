@@ -5,7 +5,7 @@
     	<title>SuperBit Design</title>
 		<link href="./documentation-styles.css" rel="stylesheet" type="text/css"/>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet"/>
-  	</head>
+	</head>
   
   	<body>
     	<section class="overview">
