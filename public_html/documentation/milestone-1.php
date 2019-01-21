@@ -8,6 +8,13 @@
 	</head>
   
   	<body>
+        <nav>
+            <ul>
+                <li><a href="./milestone-1.php">Milestone-1</a></li>
+                <li><a href="./milestone-2.php">Milestone-2</a></li>
+            </ul>
+        </nav>
+        
     	<section class="overview">
 			<h1>Overview of SuperBit Design website</h1>
 
