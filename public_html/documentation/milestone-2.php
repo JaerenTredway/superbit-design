@@ -40,7 +40,6 @@
             <ol>
                 <li>fixed header with logo, title, hamburger dropdown nav menu</li>
                 <li>detailed list of services and prices</li>
-                <li>one testimonial</li>
                 <li>footer with copyright, logo link to homepage, social media links</li>
             </ol>
             
@@ -48,7 +47,6 @@
             <ol>
                 <li>fixed header with logo, title, hamburger dropdown nav menu</li>
                 <li>gallery of my work</li>
-                <li>one testimonial</li>
                 <li>footer with copyright, logo link to homepage, social media links</li>
             </ol>
             
@@ -56,7 +54,6 @@
             <ol>
                 <li>fixed header with logo, title, hamburger dropdown nav menu</li>
                 <li>brief bio</li>
-                <li>one testimonial</li>
                 <li>footer with copyright, logo link to homepage, social media links</li>
             </ol>
             
