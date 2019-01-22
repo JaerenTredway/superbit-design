@@ -1,23 +1,41 @@
 body {
 	font-family: "Raleway", sans-serif;
 	background-color: #e6ebf4;
+	margin: 2rem;
 }
 
 h1 {
 	font-size: 2rem;
+	border: 1px solid red;
 }
 
 table, th, td {
-	border: 1px solid grey;
+	border: 1px solid red;
 	border-collapse: collapse;
 }
 
 .mobile {
-	width: 25%;
+	display: block;
+	width: 100px;
+	height: 225px;
 	margin: 2rem;
+	border: 1px solid red;
+}
+
+.mobile img {
+    width: 100%;
+    height: auto;
+	border: 1px solid red;
 }
 
 .desktop {
+	display: inline-block;
 	width: 45%;
 	margin: 2rem;
 }
+
+
+
+
+
+
