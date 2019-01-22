@@ -30,9 +30,9 @@
             <h3>Home</h3>
             <ol>
                 <li>fixed header with logo, title, hamburger dropdown nav menu</li>
-                <li>hero/ jumbotron with image and quote</li>
+                <li>hero/ jumbotron with carousal of highlight projects and quotes</li>
                 <li>gallery of example services/ products</li>
-                <li>footer with copyright, logo link to homepage</li>
+                <li>footer with copyright, logo link to homepage, social media links</li>
             </ol>
             
             
@@ -41,7 +41,7 @@
                 <li>fixed header with logo, title, hamburger dropdown nav menu</li>
                 <li>detailed list of services and prices</li>
                 <li>one testimonial</li>
-                <li>footer with copyright, logo link to homepage</li>
+                <li>footer with copyright, logo link to homepage, social media links</li>
             </ol>
             
             <h3>Portfolio</h3>
@@ -49,7 +49,7 @@
                 <li>fixed header with logo, title, hamburger dropdown nav menu</li>
                 <li>gallery of my work</li>
                 <li>one testimonial</li>
-                <li>footer with copyright, logo link to homepage</li>
+                <li>footer with copyright, logo link to homepage, social media links</li>
             </ol>
             
             <h3>About</h3>
@@ -57,14 +57,14 @@
                 <li>fixed header with logo, title, hamburger dropdown nav menu</li>
                 <li>brief bio</li>
                 <li>one testimonial</li>
-                <li>footer with copyright, logo link to homepage</li>
+                <li>footer with copyright, logo link to homepage, social media links</li>
             </ol>
             
             <h3>Contact</h3>
             <ol>
                 <li>fixed header with logo, title, hamburger dropdown nav menu</li>
                 <li>contact information</li>
-                <li>footer with copyright, logo link to homepage</li>
+                <li>footer with copyright, logo link to homepage, social media links</li>
             </ol>
             
             <h1> Mobile WireFrames</h1>

@@ -76,7 +76,7 @@
 				</tr>
 				<tr>
 					<td>User Story</td>
-					<td> "My name is Lisa Bullard, MS, and I am a professional coach looking to dramatically improve my internet presence and my use of web technologies to enhance my business. I need a Web Developer who has the technical know-how but also has a solid artistic ability and an ability to really understand the very specific details I want in my website.</td>
+					<td> "My name is Lisa Bullard, MS, and I am a professional coach looking to dramatically improve my internet presence and my use of web technologies to enhance my business. I need a Web Developer who has the technical know-how to code my website and also has a solid artistic ability and a willingness to really work with me on the very specific details I want in my website.</td>
 				</tr>
 			</table>
 		</section>
