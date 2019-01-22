@@ -68,18 +68,18 @@
             </ol>
             
             <h1> Mobile WireFrames</h1>
-            <img src="../resources/home.png" alt="homepage">
-            <img src="../resources/services.png" alt="services">
-            <img src="../resources/portfolio.png" alt="portfolio">
-            <img src="../resources/about.png" alt="about">
-            <img src="../resources/contact.png" alt="contact">
+            <img class="mobile" src="../resources/home.png" alt="homepage">
+            <img class="mobile" src="../resources/services.png" alt="services">
+            <img class="mobile" src="../resources/portfolio.png" alt="portfolio">
+            <img class="mobile" src="../resources/about.png" alt="about">
+            <img class="mobile" src="../resources/contact.png" alt="contact">
             
             <h1> Desktop WireFrames</h1>
-            <img src="../resources/home-desktop.png" alt="homepage">
-            <img src="../resources/services-desktop.png" alt="services">
-            <img src="../resources/portfolio-desktop.png" alt="portfolio">
-            <img src="../resources/about-desktop.png" alt="about">
-            <img src="../resources/contact-desktop.png" alt="contact">
+            <img class="desktop" src="../resources/home-desktop.png" alt="homepage">
+            <img class="desktop" src="../resources/services-desktop.png" alt="services">
+            <img class="desktop" src="../resources/portfolio-desktop.png" alt="portfolio">
+            <img class="desktop" src="../resources/about-desktop.png" alt="about">
+            <img class="desktop" src="../resources/contact-desktop.png" alt="contact">
         </section>
     </body>
 </html>

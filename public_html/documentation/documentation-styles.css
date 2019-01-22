@@ -11,3 +11,13 @@ table, th, td {
 	border: 1px solid grey;
 	border-collapse: collapse;
 }
+
+.mobile {
+	width: 25%;
+	margin: 2rem;
+}
+
+.desktop {
+	width: 45%;
+	margin: 2rem;
+}
