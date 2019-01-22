@@ -68,11 +68,8 @@
             </ol>
             
             <h1> Mobile WireFrames</h1>
-            <div class="mobile">
-                <img src="../resources/home.png" alt="homepage">
-            </div>
-            
-            <img src="../resources/services.png" alt="services" class="mobile">
+            <img class="home" src="../resources/home.png" alt="homepage">
+            <img class="mobile"src="../resources/services.png" alt="services">
             <img class="mobile" src="../resources/portfolio.png" alt="portfolio">
             <img class="mobile" src="../resources/about.png" alt="about">
             <img class="mobile" src="../resources/contact.png" alt="contact">

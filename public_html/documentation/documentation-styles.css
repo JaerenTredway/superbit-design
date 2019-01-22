@@ -1,13 +1,13 @@
 
-/* body {
+body {
 	font-family: "Raleway", sans-serif;
 	background-color: #e6ebf4;
 	margin: 2rem;
-} */
+	width: 100%;
+}
 
 h1 {
 	font-size: 2rem;
-	border: 1px solid red;
 }
 
 table, th, td {
@@ -16,22 +16,28 @@ table, th, td {
 }
 
 .mobile {
-	display: block;
-	width: 100px;
-	height: 225px;
+	display: inline-block;
+	width: 30%;
 	margin: 2rem;
-	border: 1px solid red;
+	border: 1px solid grey;
 }
 
 .mobile img {
-    width: 100%;
-    height: auto;
-	border: 1px solid red;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: auto;
+}
+
+.home {
+	display: block;
+	width: 30%;
+	margin: 2rem;
+	border: 1px solid grey;
 }
 
 .desktop {
 	display: inline-block;
-	width: 45%;
+	width: 80%;
 	margin: 2rem;
 }
 
