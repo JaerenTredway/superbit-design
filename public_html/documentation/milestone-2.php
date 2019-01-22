@@ -68,18 +68,18 @@
             </ol>
             
             <h1> Mobile WireFrames</h1>
-            <img src="" alt="homepage">
-            <img src="" alt="services">
-            <img src="" alt="portfolio">
-            <img src="" alt="about">
-            <img src="" alt="contact">
+            <img src="../resources/home.png" alt="homepage">
+            <img src="../resources/services.png" alt="services">
+            <img src="../resources/portfolio.png" alt="portfolio">
+            <img src="../resources/about.png" alt="about">
+            <img src="../resources/contact.png" alt="contact">
             
             <h1> Desktop WireFrames</h1>
-            <img src="" alt="homepage">
-            <img src="" alt="services">
-            <img src="" alt="portfolio">
-            <img src="" alt="about">
-            <img src="" alt="contact">
+            <img src="../resources/home-desktop.png" alt="homepage">
+            <img src="../resources/services-desktop.png" alt="services">
+            <img src="../resources/portfolio-desktop.png" alt="portfolio">
+            <img src="../resources/about-desktop.png" alt="about">
+            <img src="../resources/contact-desktop.png" alt="contact">
         </section>
     </body>
 </html>
