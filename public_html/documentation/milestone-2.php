@@ -18,7 +18,7 @@
         <section>
             <h1>PWP Milestone 2α</h1>
             <h2>Content Strategy</h2>
-            <p>The SuperBit Design website will have the following pages:</p>
+            <p>The SuperBit Design website will have the following pages:.</p>
             <ul>
                 <li>Home</li>
                 <li>Services</li>

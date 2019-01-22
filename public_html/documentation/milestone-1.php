@@ -18,7 +18,7 @@
     	<section class="overview">
 			<h1>Overview of SuperBit Design website</h1>
 
-			<p>PWP project by Will Tredway, Fullstack Cohort 23</p>
+			<p>PWP project by Will Tredway, Fullstack Cohort 23.</p>
 		 	<h2>Purpose</h2>
 		 	<p>This website will provide customers who are looking for a fullstack web development company with a clear and concise understanding of what services and deliverable products SuperBit Design provides, and Will Tredway's credentials, reputation, and abilities.</p>
 
