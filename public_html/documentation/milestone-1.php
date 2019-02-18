@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   	<head>
     	<meta charset="utf-8">
-    	<title>SuperBit Design</title>
+    	<title>SuperBit Design Specs</title>
 		<link href="./documentation-styles.css" rel="stylesheet" type="text/css"/>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet"/>
 	</head>
