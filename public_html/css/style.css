@@ -1,0 +1,58 @@
+/*
+imported fonts:
+font-family: 'Michroma', sans-serif;
+font-family: 'Exo', sans-serif; 100, 200, 400
+font-family: 'Montserrat', sans-serif; 100, 200,300, 400
+font-family: 'Raleway', sans-serif; 100, 200, 300, 400
+font-family: 'Titillium Web', sans-serif; 200, 300, 400
+*/
+
+/*HEADER*/
+header {
+    transition: all 1s ease-out;
+}
+
+.navbar-brand {
+	font-family: 'Michroma', sans-serif;
+}
+
+.navbar:hover {
+    box-shadow: 0px 0px 4px 8px #f6f9d5 !important;
+}
+
+.nav-item .nav-link {
+	font-family: 'Exo', sans-serif;
+}
+
+
+/*JUMBOTRON*/
+.jumbotron {
+    background-image: url("../images/designer.jpg") repeat 0 0;
+}
+
+.jumbotron  h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+}
+
+.jumbotron  p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+}
+
+.jumbotron .btn {
+	transition: all 1s ease-out;
+}
+
+.jumbotron .btn:focus,
+.jumbotron .btn:hover
+{
+	background-color: #59e77c;
+	color: #f6f9d5;
+	box-shadow: 0px 0px 4px 8px #f6f9d5;
+}
+/*MAIN SECTION*/
+
+/*IMAGE SECTION*/
+
+/*FOOTER*/
