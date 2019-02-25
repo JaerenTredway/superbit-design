@@ -8,21 +8,42 @@ font-family: 'Titillium Web', sans-serif; 200, 300, 400
 */
 
 /*HEADER*/
+header {
+    transition: all 1s ease-out;
+}
+
 .navbar-brand {
 	font-family: 'Michroma', sans-serif;
+}
+
+.navbar:hover {
+    box-shadow: 0px 0px 4px 8px #f6f9d5 !important;
 }
 
 .nav-item .nav-link {
 	font-family: 'Exo', sans-serif;
 }
 
+
 /*JUMBOTRON*/
-.jumbotron > h1 {
+.hero-image {
+	height: auto;
+    width: 100%;
+    background-image: url("../images/jumbotron-mountains.jpg");
+    background-repeat: no-repeat;
+}
+    
+.jumbotron {
+    /* opacity: .9; */
+	height: 40rem;
+}
+
+.jumbotron  h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100;
 }
 
-.jumbotron > p {
+.jumbotron  p {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 200;
 }
