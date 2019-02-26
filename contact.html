@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+       <title>SuperBit Design</title>
+       
+       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+       <link rel="stylesheet" href="./normalize.css" type="text/css">
+       <link href="./css/style.css" rel="stylesheet" type="text/css">
+       <link href="https://fonts.googleapis.com/css?family=Exo:100,200,400|Michroma|Montserrat:100,200,300,400|Raleway:100,200,300,400|Titillium+Web:200,300,400" rel="stylesheet">
+       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+       <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
+       <script type="text/javascript" src="./js/main.js"></script>
+       
+       <!-- SECURE FORM SCRIPTS AND LINKS: -->
+       <!-- jQuery Form, Additional Methods, Validate -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+<!-- Your JavaScript Form Validator -->
+<script src="js/form-validate.js"></script>
+
+<!-- Google reCAPTCHA -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+    </head>
+    
+    <body>
+        <!--START HEADER-->
+        <header class="container-fluid border-dark">
+        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-transparent">
+           <a class="navbar-brand" href="#">SuperBit Designer</a>
+           
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+           </button>
+           
+           <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav ml-auto">
+                 <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                 </li>
+              </ul>
+           </div>
+        </nav>
+    </header>
+        <!--END HEADER-->
+        
+        <!--START FORM-->
+        <!--
+Begin Sample Contact Form
+
+Create your own contact form.
+Do not copy and paste this one.
+-->
+<form id="rochelles-demo-form" action="php/mailer.php" method="post">
+  <div class="form-group">
+    <label for="contactDemoName">Name <span class="text-danger">*</span></label>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text"></span>
+        <i class="fa fa-user" aria-hidden="true"></i>
+      </div>
+      <input type="text" class="form-control" id="contactDemoName" name="contactDemoName" placeholder="Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="contactDemoEmail">Email <span class="text-danger">*</span></label>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text"></span>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+      </div>
+      <input type="email" class="form-control" id="contactDemoEmail" name="contactDemoEmail" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="contactDemoSubject">Subject</label>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text"></span>
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+      </div>
+      <input type="text" class="form-control" id="contactDemoSubject" name="contactDemoSubject" placeholder="Subject">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="contactDemoMessage">Message <span class="text-danger">*</span></label>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text"></span>
+        <i class="fa fa-comment" aria-hidden="true"></i>
+      </div>
+      <textarea class="form-control" rows="5" id="contactDemoMessage" name="contactDemoMessage" placeholder="(2000 characters max)"></textarea>
+    </div>
+  </div>
+
+  <!-- reCAPTCHA site key:-->
+  <div class="g-recaptcha" data-sitekey="6Lf3EpQUAAAAAJezNiVNCqqj-XaICZKrI_8QNfXV"></div>
+
+  <button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+  <button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+</form>
+
+<!--empty area for form error/success output-->
+<div class="row">
+  <div class="col-xs-12">
+    <div id="output-area"></div>
+  </div>
+</div>
+        
+    </body>
+</html>
