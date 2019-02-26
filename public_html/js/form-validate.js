@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
   /**
-  * jQuery Validate Function
+  * jQuery Validator Function
   *
-  * This function provides front-end validation for your form.
+  * This function provides a jQuery front-end validation for the contact form.
   * If all tests set up here pass, the form data is AJAX submitted
   * to the mailer.php file.
   *
@@ -32,9 +32,10 @@ $(document).ready(function(){
         email: true,
         required: true
       },
+      // TODO: add rules for dropdown subject field
       message: {
-        required: true,
-        maxlength: 2000
+        required: false,
+        maxlength: 300
       }
     },
 
@@ -48,16 +49,15 @@ $(document).ready(function(){
         required: "Please enter a valid email address."
       },
       message: {
-        required: "Please enter a message.",
-        maxlength: "2000 characters max."
+        maxlength: "Max length of message 300 characters"
       }
     },
 
     // AJAX submit the form data to back end if rules pass
     submitHandler: function(form) {
-      $("#my-contact-form").ajaxSubmit({
+      $("#superbit-contact-form").ajaxSubmit({
         type: "POST",
-        url: $("#my-contact-form").attr("action"),
+        url: $("#superbit-contact-form").attr("action"),
 
         success: function(ajaxOutput) {
           // clear the output area's formatting
@@ -68,7 +68,7 @@ $(document).ready(function(){
 
           // reset the form if it was successful
           if($(".alert-success").length >= 1) {
-            $("#my-contact-form")[0].reset();
+            $("#superbit-contact-form")[0].reset();
           }
         }
       })
