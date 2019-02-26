@@ -10,6 +10,8 @@ font-family: 'Titillium Web', sans-serif; 200, 300, 400
 /*HEADER*/
 header {
     transition: all 1s ease-out;
+    z-index: 1;
+    box-shadow: 3px 0px 4px 4px rgba(70, 101, 128, 0.14);
 }
 
 .navbar-brand {
@@ -17,11 +19,12 @@ header {
 }
 
 .navbar:hover {
-    box-shadow: 0px 0px 4px 8px #f6f9d5 !important;
+    
 }
 
 .nav-item .nav-link {
 	font-family: 'Exo', sans-serif;
+    
 }
 
 
@@ -31,11 +34,15 @@ header {
     width: 100%;
     background-image: url("../images/jumbotron-mountains.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
 }
     
 .jumbotron {
     /* opacity: .9; */
-	height: 40rem;
+	height: 50rem;
 }
 
 .jumbotron  h1 {
@@ -50,14 +57,15 @@ header {
 
 .jumbotron .btn {
 	transition: all 1s ease-out;
+    background-color: rgb(240, 200, 79);
 }
 
 .jumbotron .btn:focus,
 .jumbotron .btn:hover
 {
-	background-color: #59e77c;
+	background-color: rgb(240, 200, 79);
 	color: #f6f9d5;
-	box-shadow: 0px 0px 4px 8px #f6f9d5;
+	box-shadow: 0px 0px 2px 4px #f6f9d5;
 }
 /*MAIN SECTION*/
 
