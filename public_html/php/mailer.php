@@ -20,6 +20,14 @@ $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
 try {
 
+	//if there's a reCAPTCHA error, throw an exception:
+	if (!$resp->isSuccess()) {
+		throw(new Exception("reCAPTCHA error!"));
+	}
+
+	/*
+	 * sanitize the inputs from the form. Assumes jQuery will AJAX submit the form
+	 */
 	$name = filter_input(INPUT_POST, "contactName", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$email = filter_input(INPUT_POST, "contactEmail", FILTER_SANITIZE_EMAIL);
 	$subject = filter_input(INPUT_POST, "contactSubject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
@@ -38,7 +46,7 @@ try {
 	$recipients = $MAIL_RECIPIENTS;
 	$emailObject->addTo($recipients[0], $recipients[1]);
 	// attach the subject line to the message
-	$emailObject->setSubject("PWP Contact");
+	$emailObject->setSubject("SuperBit Contact");
 	/**
 	 * Attach the actual content for the email.
 	 **/
