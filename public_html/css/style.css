@@ -13,12 +13,24 @@ html {
 }
 
 /*HEADER*/
-header {
-    transition: all 1.5s ease-out;
+.hero-image {
+	/* height: auto; */
+    width: 100%;
+    background-image: url("../images/jumbotron-mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative;
+    bottom: 3rem; */
     z-index: 1;
+}
+
+.header {
+    transition: all 1.5s ease-out;
     box-shadow: 3px 0px 4px 4px rgba(255, 255, 255, 0.14);
     width: 100% !important;
     margin: 0 !important;
+    height: 3rem;
+    z-index: 2;
 }
 
 header:hover {
@@ -58,19 +70,9 @@ header:hover {
 
 
 /*JUMBOTRON*/
-.hero-image {
-	/* height: auto; */
-    width: 100%;
-    background-image: url("../images/jumbotron-mountains.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-}
-    
 .jumbotron {
-	height: 50rem;
+	height: 51rem;
+    /* margin: 0 !important; */
 }
 
 .jumbotron  h1 {
@@ -98,14 +100,29 @@ header:hover {
     //rgba(254, 195, 19, 1.0)
 }
 
+.jumbotron h1 {
+    height: 7rem;
+}
+
+.jumbotron .spacer {
+    height: 8rem;
+}
+
 /*FOOTER*/
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+footer {
+  margin: 0 !important;
   height: 6rem;
   background-color: rgb(14, 19, 37);
   color: rgb(107, 110, 116);
   font-family: Michroma, sans-serif;
+  font-size: 1rem;
+}
+  
+footer>div {
+    height: 100%;
+} 
+  
+.copyright {
+    font-size: .75rem;
 }
 
