@@ -126,3 +126,7 @@ footer>div {
     font-size: .75rem;
 }
 
+.icon-links div:hover {
+    cursor: pointer;
+}
+
