@@ -7,9 +7,15 @@ font-family: 'Raleway', sans-serif; 100, 200, 300, 400
 font-family: 'Titillium Web', sans-serif; 200, 300, 400
 */
 
+/*UNIVERSAL STYLES*/
 html {
   position: relative;
   min-height: 100%;
+}
+
+a {
+    text-decoration: none !important;
+    transition: all .5s ease-out;
 }
 
 /*HEADER*/
@@ -33,7 +39,7 @@ html {
     z-index: 2;
 }
 
-header:hover {
+.header:hover {
     box-shadow: 0px 0px 2px 2px rgba(224, 195, 92, 0.55);
 }
 
@@ -67,7 +73,6 @@ header:hover {
 .nav-item .nav-link:hover {
     color: rgba(224, 195, 92, 0.55) !important;
 }
-
 
 /*JUMBOTRON*/
 .jumbotron {
