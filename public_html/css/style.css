@@ -131,6 +131,11 @@ header:hover {
     height: 12rem;
 }
 
+/*CAROUSEL*/
+.carousel-inner img {
+  margin: auto;
+}
+
 /*FORM*/
 form {
     position: relative;
