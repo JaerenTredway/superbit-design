@@ -18,29 +18,44 @@ a {
     transition: all .5s ease-out;
 }
 
+main {
+    position: relative;
+    top: 3rem;
+    font-family: "Montserrat", sans-serif;
+}
+
 /*HEADER*/
 .hero-image {
-	/* height: auto; */
+	height: auto;
     width: 100%;
     background-image: url("../images/jumbotron-mountains.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* position: relative;
-    bottom: 3rem; */
-    z-index: 1;
+    /* background-position: center; */
+    /* z-index: 1; */
+    /* overflow-y: scroll; */
+}
+
+header {
+    transition: all 1.5s ease-out;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.05);
+    width: 100% !important;
+    background: linear-gradient(to right, rgb(18, 30, 50), rgb(69,75,91));
+    position: fixed;
+    z-index: 2;
+}
+
+header:hover {
+    /* box-shadow: 0px 3px  rgb(224, 195, 92); */
+    border-bottom: 3px solid rgba(224, 195, 92, 0.55) !important;
 }
 
 .header {
     transition: all 1.5s ease-out;
-    box-shadow: 3px 0px 4px 4px rgba(255, 255, 255, 0.14);
-    width: 100% !important;
-    margin: 0 !important;
-    height: 3rem;
-    z-index: 2;
 }
 
 .header:hover {
-    box-shadow: 0px 0px 2px 2px rgba(224, 195, 92, 0.55);
+    box-shadow: 0px 3px  rgb(224, 195, 92);
 }
 
 .navbar {
@@ -48,10 +63,6 @@ a {
     border-radius: 5px;
     width: 100% !important;
     margin: 0 !important;
-}
-
-.navbar:hover {
-    
 }
 
 .navbar-brand {
@@ -64,6 +75,10 @@ a {
     color: rgba(224, 195, 92, 0.55) !important;
 }
 
+.navbar-collapse {
+    z-index: 5;
+}
+
 .nav-item .nav-link {
 	font-family: 'Exo', sans-serif;
     color: rgb(107, 110, 116) !important;
@@ -74,10 +89,13 @@ a {
     color: rgba(224, 195, 92, 0.55) !important;
 }
 
+.navbar-toggler {
+    outline: none !important;
+}
+
 /*JUMBOTRON*/
 .jumbotron {
-	height: 51rem;
-    /* margin: 0 !important; */
+	height: 58rem;
 }
 
 .jumbotron  h1 {
@@ -110,7 +128,13 @@ a {
 }
 
 .jumbotron .spacer {
-    height: 8rem;
+    height: 12rem;
+}
+
+/*FORM*/
+form {
+    position: relative;
+    top: 4rem;
 }
 
 /*FOOTER*/

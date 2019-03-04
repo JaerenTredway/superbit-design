@@ -35,7 +35,7 @@
 
 <body>
     <!--START HEADER-->
-    <header class="container-fluid border-dark">
+    <div class="header container-fluid">
         <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-transparent">
             <a class="navbar-brand" href="./index.html">SuperBit Designer</a>
 
@@ -63,12 +63,12 @@
                 </ul>
             </div>
         </nav>
-    </header>
+    </div>
     <!--END HEADER-->
-
+    <main>
     <!--START FORM-->
     <form id="superbit-contact-form" class="ml-5 mr-5" action="php/mailer.php" method="post">
-        
+        <h3>Contact us!</h3>
         <div class="form-group">
             <label for="contactName">Name <span class="text-danger">*</span></label>
             <div class="input-group">
@@ -122,7 +122,8 @@
             <div id="output-area"></div>
         </div>
     </div>
-
+    
+    </main>
 </body>
 
 </html>
